@@ -1,0 +1,58 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;  
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 33% 33% 33%; 
+}
+
+.card{
+    background-color: #fafafa;
+    margin: 10px;
+    border: 1px dotted #aaaaaa;
+    padding: 10px;
+}
+
+.card:hover{
+    background-color: rgb(2, 255, 221);
+}
+
+img{
+    display: inline-block;
+}
+
+.s {
+    width:30px;
+    height:30px;
+}
+
+.m{
+    width:60px;
+    height:60px;
+}
+
+.l{
+    width:120px;
+    height:120px;
+}
+
+.xl{
+    width:150px;
+    height:150px;
+}
+
+.rounded{
+    border-radius: 10px;
+}
+
+.circle{
+    border-radius: 50%;
+}
+
+.square{
+    border: 1px solid #eeeeee;
+}
+
+
